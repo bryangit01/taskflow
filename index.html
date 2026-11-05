@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Mis tareas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <header>
+            <h1>TaskFlow</h1>
+            <p>Organiza tus tareas y alcanza tus objetivos.</p>
+        </header>
+
+        <section class="task-form">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="¿Qué necesitas hacer?"
+            >
+
+            <button id="addButton">Agregar</button>
+        </section>
+
+        <section class="task-section">
+            <h2>Mis tareas</h2>
+
+            <p id="taskCounter">Tareas pendientes: 0</p>
+
+            <ul id="taskList"></ul>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
